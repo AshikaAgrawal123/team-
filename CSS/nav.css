@@ -1,0 +1,41 @@
+nav{
+  position: fixed;
+  top: 0;
+  padding: 1.5vh 3vw;
+  background: #394552;
+  width: 94vw;
+  z-index: 1000;
+}
+.mlogo{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -4vh;
+  height: 20vh;
+  width: 10vw;
+}
+.jss_logo{
+  margin-top: 1vh;
+  margin-right: 0.5vw;
+}
+nav img{
+  height: 8vh;
+  width: 4vw;
+}
+nav span{
+  vertical-align: super;
+  margin-left: 2vw;
+  font-size: 1.5em;
+}
+nav a{
+  float: right;
+  margin: 3vh 1vw 0;
+  border-bottom: 3px solid #394552;
+  color: #FFF;
+  padding-bottom: 2px; 
+  text-decoration: none;
+  transition: all 0.3s;
+} 
+nav a:hover{
+  border-bottom: 3px solid white;
+}
